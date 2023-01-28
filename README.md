@@ -1,9 +1,9 @@
-# admin-dashboard
+# Admin-Dashboard
    Admin Dashboard skeleton.
 
 ## [Live Demo](https://tarun-sachan.github.io/admin-dashboard/)
 
-![Screenshot 2023-01-28 at 20-00-33 Document](https://user-images.githubusercontent.com/117214735/215272228-27f09c27-19cf-4e2e-ab75-f8f96b2adfa0.png)
+![Screenshot 2023-01-28 at 20-12-29 Document](https://user-images.githubusercontent.com/117214735/215272693-f69e6374-8ef9-4216-9b32-82ed0a223817.png)
 
 ## Technologies Used
 
