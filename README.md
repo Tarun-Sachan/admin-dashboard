@@ -1,5 +1,5 @@
 # admin-dashboard
-    Admin Dashboard skeleton.
+   Admin Dashboard skeleton.
 
 ## [Live Demo](https://tarun-sachan.github.io/admin-dashboard/)
 
