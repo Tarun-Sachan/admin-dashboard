@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  img{
+    border-radius: 50%;
+  }
+ 
+  .gridContainer{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+  }
+  .sideBar{
+    background-color:  rgba(25,146,212,255);
+    /* background-image: linear-gradient(to left ,#79d0ffe6, #0081C9); */
+    /* height: 100vh; */
+    
+  }
+  
+  .sbicon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1.5rem;
+    padding: .5rem 1rem .5rem 1rem;
+    
+}
+.sbiconDash{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    
+}
+.sbiconDash h1{
+    font-size: 3rem;
+}
+.sbicon:hover{
+  color: blue;
+  transition: ease-in 2000ms;
+  
+}
+.sbicon p{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: white;
+    margin-left: 2rem;
+
+}
+
+.searchBar{
+    background-color: whitesmoke;
+    box-shadow:0 6px rgba(0, 0, 0, 0.055);
+}
+.search{
+    background-color: white;   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 0rem;
+    padding-left: 5rem;
+    
+}
+input{
+    outline: none;
+    border-radius: 20px;
+    font-size: 2rem;
+    width: 800px;
+    margin-left: 1rem;
+    border: none;
+    margin-right: 10rem;
+    background-color: rgba(128, 128, 128, 0.301);
+    
+}
+
+
+.profile{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    
+}
+.profileImgSearch{
+    margin: 0 2rem 0 3rem;
+}
+.profileNameSearch{
+    
+    font-size: 2.1rem;
+    font-weight: 800;
+
+}
+
+.profile p{
+    font-size: 1.5rem;
+}
+.profile h2{
+    font-size: 2rem;
+}
+.profile img{
+    margin-left: 4rem;
+    margin-right: 1rem;
+}
+.profileBtn{
+    margin-left: auto;
+}
+.profileBtn button{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 70px;
+    outline: none;
+    border: none;
+    background-color: #0081C9;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem ;
+    font-weight: bolder;
+    box-shadow:0 4px rgba(0, 0, 0, 0.150); 
+}
+.profileBtn button:hover{
+    background-color: #10279a;
+}
+.projectContainer{
+    display: grid;
+    gap:2rem;
+    /* max-width: 1100px; */
+    /* grid-template-columns: 2fr 2fr 1fr; */
+    padding: 2.5rem;
+    
+    background-color: rgba(128, 128, 128, 0.171);
+    grid-template-areas: 
+                        'p1 p2 ac1'
+                        'p1 p2 ac1'
+                        'p3 p4 ac1'
+                        'p3 p4 ac1'
+                        'p5 p6 ac2'
+                        'p5 p6 ac2';
+    
+    
+}
+.projectContainerChildren{
+    /* border: 0px solid black; */
+    border-left: 10px solid rgb(207, 142, 63);
+    border-radius: 15px;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    background-color: whitesmoke;
+    max-height: 250px;
+    
+}
+.pcc1{
+    grid-area: p1;
+    
+}
+.pcc2{
+    grid-area: p2;
+}
+.pcc3{
+    grid-area: p3;
+}
+.pcc4{
+    grid-area: p4;
+}
+.pcc5{
+    grid-area: p5;
+}
+.pcc6{
+    grid-area: p6;
+}
+.projectContainerChildren p{
+    color: grey;
+}
+
+.projectContainerImg{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.projectContainerChildren img{
+    margin-left: 20px;
+}
+
+.anouncementContainer1{
+    grid-area: ac1;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 2rem;
+    border-top: 15px solid rgb(207, 142, 63);
+    max-width: 300px;
+   
+}
+.anouncementContainer1 p{
+    color: grey;
+}
+.anouncementContainer1 h2{
+    font-size: 1.2rem;
+    padding-bottom: 4px;
+}
+hr{
+    color: rgba(128, 128, 128, 0.228);
+}
+.anouncementContainer2{
+    background-color: whitesmoke;
+    grid-area: ac2;
+    border-radius: 15px;
+    border-top: 15px solid rgb(207, 142, 63);
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    /* grid-column-start: 3;
+    grid-row-start: 2; */
+    
+}
+
+.trendingContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+.trendingContainer img{
+    margin-right: 20px;
+    border: 2px solid black;
+    margin-bottom: 1rem;
+}
+.trendingContainer h2{
+    font-size: 1.2rem;
+}
+.trendingContainer p{
+    color: gray;
+}
+
+/* UTILITY CLASSES */
+.mb-4{
+    margin-bottom: 4rem;
+}
+.mb-8{
+    margin-bottom: 8rem;
+}
+.mb-6{
+    margin-bottom: 6rem;
+}
